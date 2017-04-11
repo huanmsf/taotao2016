@@ -7,90 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee78820f-3670-4d77-a3c0-3e67d695fc50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/artifacts/taotao_rest_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/artifacts/taotao_rest_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__com_taotao_taotao_common_0_0_1_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__com_taotao_taotao_manager_mapper_0_0_1_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_aop_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_beans_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_context_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_core_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_expression_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_tx_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_web_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/java/com/taotao/rest/controller/ItemCatController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/java/com/taotao/rest/pojo/ItemCatRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/java/com/taotao/rest/pojo/ItemCatRestResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/java/com/taotao/rest/service/ItemCatService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/java/com/taotao/rest/service/impl/ItemCatServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/properties/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/properties/resoure.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-trans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/springmvc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/taotaoparent.iml" afterPath="$PROJECT_DIR$/taotao-parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/ItemParamMapper.class" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/ItemParamMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-service/target/classes/com/taotao/service/ItemParamService.class" afterPath="$PROJECT_DIR$/taotao-manager-service/target/classes/com/taotao/service/ItemParamService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-service/target/classes/com/taotao/service/impl/ItemParamServiceImpl.class" afterPath="$PROJECT_DIR$/taotao-manager-service/target/classes/com/taotao/service/impl/ItemParamServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/classes/com/taotao/controller/ItemParamController.class" afterPath="$PROJECT_DIR$/taotao-manager-web/target/classes/com/taotao/controller/ItemParamController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web.war" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/com/taotao/controller/ItemParamController.class" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/com/taotao/controller/ItemParamController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-common-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-common-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-mapper-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-mapper-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-service-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-service-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotao_rest_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotao_rest_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoparent_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taotaoparent_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-pojo-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-pojo-0.0.1-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/common/FtpUtil.java" afterPath="$PROJECT_DIR$/taotao-common/src/main/java/com/taotao/common/FtpUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-mapper/src/main/java/com/taotao/mapper/ItemParamMapper.java" afterPath="$PROJECT_DIR$/taotao-manager-mapper/src/main/java/com/taotao/mapper/ItemParamMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-mapper/src/main/java/com/taotao/mapper/ItemParamMapper.xml" afterPath="$PROJECT_DIR$/taotao-manager-mapper/src/main/java/com/taotao/mapper/ItemParamMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/ItemParamMapper.xml" afterPath="$PROJECT_DIR$/taotao-manager-mapper/target/classes/com/taotao/mapper/ItemParamMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-pojo/pom.xml" afterPath="$PROJECT_DIR$/taotao-manager-pojo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-service/pom.xml" afterPath="$PROJECT_DIR$/taotao-manager-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java" afterPath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/ItemCatService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/ItemParamService.java" afterPath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/ItemParamService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java" afterPath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemCatServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemParamServiceImpl.java" afterPath="$PROJECT_DIR$/taotao-manager-service/src/main/java/com/taotao/service/impl/ItemParamServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/pom.xml" afterPath="$PROJECT_DIR$/taotao-manager-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/src/main/java/com/taotao/controller/ItemParamController.java" afterPath="$PROJECT_DIR$/taotao-manager-web/src/main/java/com/taotao/controller/ItemParamController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/src/main/resources/properties/db.properties" afterPath="$PROJECT_DIR$/taotao-manager-web/src/main/resources/properties/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/src/main/resources/properties/resoure.properties" afterPath="$PROJECT_DIR$/taotao-manager-web/src/main/resources/properties/resoure.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" afterPath="$PROJECT_DIR$/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" afterPath="$PROJECT_DIR$/taotao-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/classes/properties/db.properties" afterPath="$PROJECT_DIR$/taotao-manager-web/target/classes/properties/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/classes/properties/resoure.properties" afterPath="$PROJECT_DIR$/taotao-manager-web/target/classes/properties/resoure.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/properties/db.properties" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/properties/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/properties/resoure.properties" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/properties/resoure.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-param-add.jsp" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-param-add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-param-list.jsp" afterPath="$PROJECT_DIR$/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-param-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/pom.xml" afterPath="$PROJECT_DIR$/taotao-rest/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/taotao-rest/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/taotao-rest.iml" afterPath="$PROJECT_DIR$/taotao-rest/taotao-rest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/properties/db.properties" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/properties/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/properties/resoure.properties" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/properties/resoure.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/applicationContext-trans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/taotao-rest/src/main/resources/spring/springmvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1177,16 +1101,24 @@
       <workItem from="1491802373748" duration="16205000" />
       <workItem from="1491872918113" duration="7381000" />
       <workItem from="1491888616450" duration="6943000" />
-      <workItem from="1491896113916" duration="4297000" />
+      <workItem from="1491896113916" duration="4328000" />
     </task>
+    <task id="LOCAL-00001" summary="前台分类">
+      <created>1491900473348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491900473350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34826000" />
+    <option name="totallyTimeSpent" value="34857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1200,7 +1132,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26058632" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49185666" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19706841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
