@@ -7,9 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/taotao-manager-pojo/taotao-manager-pojo.iml" filepath="$PROJECT_DIR$/taotao-manager-pojo/taotao-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-manager-service/taotao-manager-service.iml" filepath="$PROJECT_DIR$/taotao-manager-service/taotao-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/taotao-manager-web/taotao-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-portal/taotao-portal.iml" filepath="$PROJECT_DIR$/taotao-portal/taotao-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-rest/taotao-rest.iml" filepath="$PROJECT_DIR$/taotao-rest/taotao-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taotaoparent.iml" filepath="$PROJECT_DIR$/taotaoparent.iml" />
     </modules>
   </component>
 </project>

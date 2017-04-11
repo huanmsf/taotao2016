@@ -42,7 +42,7 @@
         iconCls:'icon-add',
         handler:function(){
         	TAOTAO.createWindow({
-        		url : "/item-param-add",
+        		url : "/rest/page/item-param-add",
         	});
         }
     },{

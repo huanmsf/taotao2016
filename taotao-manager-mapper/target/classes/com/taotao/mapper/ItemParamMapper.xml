@@ -109,4 +109,13 @@
   
   	select <include refid="Base_Column_List" /> , <include refid="Blob_Column_List" /> from tb_item_param order by id desc 
   </select>
+
+    <select id="getItemParamByCid" resultMap="ResultMapWithBLOBs" >
+
+  	select <include refid="Base_Column_List" /> , <include refid="Blob_Column_List" /> from tb_item_param WHERE item_cat_id=#{cid} order by id desc
+  </select>
+
+
+
+
 </mapper>
