@@ -922,7 +922,7 @@
       <workItem from="1491872918113" duration="7381000" />
       <workItem from="1491888616450" duration="6943000" />
       <workItem from="1491896113916" duration="4396000" />
-      <workItem from="1491900886602" duration="495000" />
+      <workItem from="1491900886602" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="前台分类">
       <created>1491900473348</created>
@@ -959,11 +959,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491901376987</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="xiugai32r2">
+      <created>1491901388550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491901388550</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35420000" />
+    <option name="totallyTimeSpent" value="35431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -1013,7 +1020,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="前台分类" />
     <MESSAGE value="xiugai" />
-    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
+    <MESSAGE value="xiugai32r2" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiugai32r2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
