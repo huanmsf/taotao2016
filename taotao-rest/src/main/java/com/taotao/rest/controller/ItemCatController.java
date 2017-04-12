@@ -1,7 +1,7 @@
 package com.taotao.rest.controller;
 
 import com.taotao.common.JsonUtils;
-import com.taotao.rest.pojo.ItemCatRestResult;
+import com.taotao.pojo.ItemCatRestResult;
 import com.taotao.rest.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

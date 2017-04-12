@@ -2,8 +2,8 @@ package com.taotao.rest.service.impl;
 
 import com.taotao.mapper.ItemCatMapper;
 import com.taotao.pojo.ItemCat;
-import com.taotao.rest.pojo.ItemCatRest;
-import com.taotao.rest.pojo.ItemCatRestResult;
+import com.taotao.pojo.ItemCatRest;
+import com.taotao.pojo.ItemCatRestResult;
 import com.taotao.rest.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
