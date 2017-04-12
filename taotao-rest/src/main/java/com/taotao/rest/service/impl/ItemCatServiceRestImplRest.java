@@ -4,7 +4,7 @@ import com.taotao.mapper.ItemCatMapper;
 import com.taotao.pojo.ItemCat;
 import com.taotao.pojo.ItemCatRest;
 import com.taotao.pojo.ItemCatRestResult;
-import com.taotao.rest.service.ItemCatService;
+import com.taotao.rest.service.ItemCatServiceRest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.List;
  * Created by root on 17-4-11.
  */
 @Service
-public class ItemCatServiceImpl implements ItemCatService {
+public class ItemCatServiceRestImplRest implements ItemCatServiceRest {
 
     @Autowired
     private ItemCatMapper itemCatMapper;

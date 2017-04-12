@@ -48,4 +48,11 @@ public class ContentServiceImpl implements ContentService {
     }
 
 
+    @Override
+    public TaotaoResult getContentList(long cid)  {
+
+        List<Content> list = contentMapper.selectByCatid(cid);
+        return TaotaoResult.ok(list);
+    }
+
 }

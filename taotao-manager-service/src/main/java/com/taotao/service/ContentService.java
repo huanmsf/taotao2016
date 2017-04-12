@@ -10,4 +10,5 @@ import com.taotao.pojo.Content;
 public interface ContentService {
     public EasyUIResult getContentList(long catId, Integer page, Integer rows);
     public TaotaoResult addContent(Content content);
+    public TaotaoResult getContentList(long cid);
 }

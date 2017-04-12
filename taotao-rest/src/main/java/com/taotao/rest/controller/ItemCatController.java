@@ -2,7 +2,7 @@ package com.taotao.rest.controller;
 
 import com.taotao.common.JsonUtils;
 import com.taotao.pojo.ItemCatRestResult;
-import com.taotao.rest.service.ItemCatService;
+import com.taotao.rest.service.ItemCatServiceRest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -17,13 +17,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class ItemCatController {
 
     @Autowired
-    ItemCatService itemCatService;
+    ItemCatServiceRest itemCatServiceRest;
 
     @RequestMapping(value="/all", produces= MediaType.APPLICATION_JSON_VALUE + ";charset=utf-8")
     @ResponseBody
     public String queryAll(String callback) throws Exception {
         //查询分类列表
-        ItemCatRestResult itemCatRestResult = itemCatService.queryAllCategory();
+        ItemCatRestResult itemCatRestResult = itemCatServiceRest.queryAllCategory();
         //把对象转换成json数据
         String jsonResult = JsonUtils.objectToJson(itemCatRestResult);
         //拼接字符串
