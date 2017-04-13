@@ -55,4 +55,34 @@ public class ContentServiceImpl implements ContentService {
         return TaotaoResult.ok(list);
     }
 
+
+/*    @Override
+    public TaotaoResult getContentList(long cid) {
+        //缓存逻辑，先判断缓存中是否有内容
+        try {
+            String contentStr = cluster.hget(TB_CONTENT_KEY, cid + "");
+            if (!StringUtils.isBlank(contentStr)) {
+                //把json字符串转换成对象列表
+                List<Content> list = JsonUtils.jsonToList(contentStr, TbContent.class);
+                //返回结果
+                return TaotaoResult.ok(list);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            //缓存不能影响正常逻辑
+        }
+        //从数据库中加载数据
+        List<Content> list = contentMapper.selectByCatid(cid);
+        //把结果添加到redis数据库中
+        try {
+            cluster.hset(TB_CONTENT_KEY, cid + "", JsonUtils.objectToJson(list));
+        } catch (Exception e) {
+            e.printStackTrace();
+            //缓存不能影响正常逻辑
+        }
+
+        //返回结果
+        return TaotaoResult.ok(list);
+    }*/
+
 }
