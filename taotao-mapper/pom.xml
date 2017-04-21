@@ -5,12 +5,12 @@
         <artifactId>taotao-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>taotao-manager-mapper</artifactId>
+    <artifactId>taotao-mapper</artifactId>
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-pojo</artifactId>
+            <artifactId>taotao-pojo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

@@ -12,11 +12,13 @@
     <packaging>war</packaging>
     <dependencies>
         <!-- 依赖taotao-manager-mapper工程 -->
+
         <dependency>
             <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-mapper</artifactId>
+            <artifactId>taotao-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <!-- MySql -->
         <dependency>
             <groupId>mysql</groupId>
@@ -78,16 +80,6 @@
         </dependency>
 
 
-        <dependency>
-            <groupId>com.taotao</groupId>
-            <artifactId>taotao-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>

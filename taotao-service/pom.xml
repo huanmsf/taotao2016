@@ -9,11 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>taotao-manager-service</artifactId>
+    <artifactId>taotao-service</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-mapper</artifactId>
+            <artifactId>taotao-mapper</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
