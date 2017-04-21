@@ -1,0 +1,5 @@
+网站是根据传智播客淘淘商城项目编写
+目录结构和小部分文件调整
+taotaoparent(maven聚合工程 pom)
+    ----taotao-common(jar)
+

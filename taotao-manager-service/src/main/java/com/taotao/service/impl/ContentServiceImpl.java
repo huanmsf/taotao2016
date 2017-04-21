@@ -3,12 +3,16 @@ package com.taotao.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.common.EasyUIResult;
+import com.taotao.common.JsonUtils;
 import com.taotao.common.TaotaoResult;
 import com.taotao.mapper.ContentMapper;
 import com.taotao.pojo.Content;
 import com.taotao.service.ContentService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.JedisCluster;
 
 import java.util.Date;
 import java.util.List;
@@ -18,6 +22,11 @@ import java.util.List;
  */
 @Service
 public class ContentServiceImpl implements ContentService {
+
+    @Autowired
+    private JedisCluster cluster;
+    @Value("${CONTENT_KEY}")
+    private String CONTENT_KEY;
 
     @Autowired
     private ContentMapper contentMapper;
@@ -48,22 +57,23 @@ public class ContentServiceImpl implements ContentService {
     }
 
 
-    @Override
+ /*   @Override
     public TaotaoResult getContentList(long cid)  {
 
         List<Content> list = contentMapper.selectByCatid(cid);
         return TaotaoResult.ok(list);
-    }
+    }*/
 
 
-/*    @Override
+    @Override
     public TaotaoResult getContentList(long cid) {
+
         //缓存逻辑，先判断缓存中是否有内容
         try {
-            String contentStr = cluster.hget(TB_CONTENT_KEY, cid + "");
+            String contentStr = cluster.hget(CONTENT_KEY, cid + "");
             if (!StringUtils.isBlank(contentStr)) {
                 //把json字符串转换成对象列表
-                List<Content> list = JsonUtils.jsonToList(contentStr, TbContent.class);
+                List<Content> list = JsonUtils.jsonToList(contentStr, Content.class);
                 //返回结果
                 return TaotaoResult.ok(list);
             }
@@ -75,7 +85,7 @@ public class ContentServiceImpl implements ContentService {
         List<Content> list = contentMapper.selectByCatid(cid);
         //把结果添加到redis数据库中
         try {
-            cluster.hset(TB_CONTENT_KEY, cid + "", JsonUtils.objectToJson(list));
+            cluster.hset(CONTENT_KEY, cid + "", JsonUtils.objectToJson(list));
         } catch (Exception e) {
             e.printStackTrace();
             //缓存不能影响正常逻辑
@@ -83,6 +93,6 @@ public class ContentServiceImpl implements ContentService {
 
         //返回结果
         return TaotaoResult.ok(list);
-    }*/
+    }
 
 }
