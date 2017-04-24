@@ -14,7 +14,7 @@ taotaoparent(maven聚合工程 其他模块继承它 pom)
 比如 ----taotao-manager(后台 war) 应该设计为：http://localhost:8083/manager/
 因为涉及页面较多不想改
 
-
+solr 服务器:http://localhost:8080/solr
 初始化导入solr数据  http://localhost:8083/rest/item/importData
 
 
