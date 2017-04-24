@@ -66,9 +66,10 @@
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-solrj</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-service</artifactId>
+            <artifactId>taotao-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

@@ -44,5 +44,7 @@
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.taotao.mapper" />
 	</bean>
+
+	<context:component-scan base-package="com.taotao.mapper"/>
 	
 </beans>

@@ -5,15 +5,36 @@
   <artifactId>taotao-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <modules>
-    <module>taotao-common</module>
-    <module>taotao-portal</module>
-    <module>taotao-rest</module>
 
+    <module>taotao-common</module>
     <module>taotao-mapper</module>
     <module>taotao-pojo</module>
     <module>taotao-service</module>
     <module>taotao-manager</module>
+    <module>taotao-portal</module>
+    <module>taotao-rest</module>
   </modules>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>4.1.3.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>com.taotao</groupId>
+      <artifactId>taotao-common</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+    </dependency>
+  </dependencies>
+
   <packaging>pom</packaging>
   <!-- 集中定义依赖版本号 -->
   <properties>

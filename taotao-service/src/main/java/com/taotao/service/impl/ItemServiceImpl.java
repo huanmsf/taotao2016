@@ -1,20 +1,22 @@
 package com.taotao.service.impl;
 
-import java.util.Date;
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.common.EasyUIResult;
 import com.taotao.common.IDUtils;
+import com.taotao.common.TaotaoResult;
 import com.taotao.mapper.ItemDescMapper;
 import com.taotao.mapper.ItemMapper;
 import com.taotao.pojo.Item;
 import com.taotao.pojo.ItemDesc;
 import com.taotao.service.ItemService;
+import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.common.SolrInputDocument;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Date;
+import java.util.List;
 
 @Service
 public class ItemServiceImpl implements ItemService {
@@ -22,6 +24,9 @@ public class ItemServiceImpl implements ItemService {
 	private ItemMapper itemMapper;
 	@Autowired
 	private ItemDescMapper itemDescMapper;
+	@Autowired
+	private SolrServer solrServer;
+
 	@Override
 	public EasyUIResult getItemList(Integer page, Integer rows) {
 		//设置分页
@@ -80,5 +85,28 @@ public class ItemServiceImpl implements ItemService {
 		//插入数据
 		itemDescMapper.updateByPrimaryKey(itemDesc);
 		
+	}
+
+	@Override
+	public TaotaoResult solrImportData() {
+		List<Item> list = itemMapper.getAll();
+		try{
+			for (Item item : list) {
+				SolrInputDocument document = new SolrInputDocument();
+				document.addField("id", item.getId());
+				document.addField("item_title", item.getTitle());
+				document.addField("item_sell_point", item.getSellPoint());
+				document.addField("item_price", item.getPrice());
+				document.addField("item_image", item.getImage());
+				//将文档写入索引库
+				solrServer.add(document);
+			}
+			//提交修改
+			solrServer.commit();
+
+		}catch (Exception e){
+			return TaotaoResult.build(500,e.toString());
+		}
+		return TaotaoResult.ok();
 	}
 }

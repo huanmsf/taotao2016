@@ -45,7 +45,17 @@ public class ItemController {
 		itemService.updateItem(item, desc, null);
 		return TaotaoResult.ok();
 	}
-	
-	
-	
+
+
+	@RequestMapping("/importData")
+	//设置相应的内容为json数据
+	@ResponseBody
+	public TaotaoResult importData() throws Exception {
+		//查询商品列表
+		TaotaoResult result = itemService.solrImportData();
+		return result;
+	}
+
+
+
 }

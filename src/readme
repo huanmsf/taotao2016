@@ -6,13 +6,19 @@ taotaoparent(maven聚合工程 其他模块继承它 pom)
     ----taotao-mapper(DAO jar)
     ----taotao-service(jar)
 
-    ----taotao-manager(后台 war)    http://localhost:8080/rest/
+    ----taotao-manager(后台 war)    http://localhost:8083/rest/
     ----taotao-portal(前台门户 war)  http://localhost:8082/
     ----taotao-rest(对外接口 war)    http://localhost:8081/rest/
 
 以上有些不合理地方：
-比如 ----taotao-manager(后台 war) 应该设计为：http://localhost:8080/manager/
+比如 ----taotao-manager(后台 war) 应该设计为：http://localhost:8083/manager/
 因为涉及页面较多不想改
+
+
+初始化导入solr数据  http://localhost:8083/rest/item/importData
+
+
+
 
 
 
