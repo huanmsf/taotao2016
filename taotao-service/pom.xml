@@ -49,6 +49,8 @@
             <version>${spring.version}</version>
         </dependency>
 
+
+
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
@@ -74,11 +76,6 @@
             <version>${mybatis.spring.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.github.pagehelper</groupId>
-            <artifactId>pagehelper</artifactId>
-            <version>3.7.5</version>
-        </dependency>
 
         <!-- MySql -->
         <dependency>

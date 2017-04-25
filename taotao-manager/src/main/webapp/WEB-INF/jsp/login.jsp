@@ -34,7 +34,7 @@
     			$.messager.alert('错误',"用户名密码不正确！");
     			return ;
     		}
-    		window.location.href="/rest/page/index";
+    		window.location.href="${contextPath}/rest/page/index";
     	});
     </script>
 </body>

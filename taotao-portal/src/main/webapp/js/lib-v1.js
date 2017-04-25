@@ -691,6 +691,7 @@ var TrimPath;
         }
     }
 }(jQuery), function(a) {
+       /************************************
     a.fn.Jlazyload = function(b, c) {
         if (this.length) {
             var d, e, f = a.extend({type: null,offsetParent: null,source: "data-lazyload",placeholderImage: "/images/blank.gif",placeholderClass: "loading-style2",threshold: 200}, b || {}), g = this, h = function(a) {
@@ -745,6 +746,8 @@ var TrimPath;
             })
         }
     }
+
+    */
 }(jQuery), function(a) {
     a.Jtimer = function(b, c) {
         var d = a.extend({pids: null,template: null,reset: null,mainPlaceholder: "timed",subPlaceholder: "timer",resetPlaceholder: "reset",iconPlaceholder: "icon",finishedClass: "",timer: []}, b || {}), e = function(a) {

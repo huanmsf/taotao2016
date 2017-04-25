@@ -22,6 +22,11 @@
             <artifactId>taotao-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
 
@@ -33,7 +38,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <port>8083</port>
-                    <path>/</path>
+                    <path>/taotao-manager</path>
                 </configuration>
             </plugin>
         </plugins>
